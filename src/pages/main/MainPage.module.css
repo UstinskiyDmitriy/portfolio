@@ -1,0 +1,27 @@
+.main {
+    padding: 20px 60px;
+}
+
+.hello {
+    border-bottom: 1px solid var(--accent-color-gray);
+}
+
+.skills {
+    border-bottom: 1px solid var(--accent-color-gray);
+}
+
+.experience {
+    border-bottom: 1px solid var(--accent-color-gray);
+}
+
+.education {
+    border-bottom: 1px solid var(--accent-color-gray);
+}
+
+.portfolio {
+    border-bottom: 1px solid var(--accent-color-gray);
+}
+
+.contacts {
+    border-bottom: 1px solid var(--accent-color-gray);
+}

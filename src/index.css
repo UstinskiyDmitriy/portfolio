@@ -1,0 +1,28 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --main-bg-color: #fff;
+  --main-text-color: #333;
+  --accent-color-blue: #3333FF;
+  --accent-color-gray: #d8d6d6;
+  --main-font-size: 18px;
+  --button-font-size: 12px;
+  --title-size: 30px;
+
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li,a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-size: var(--main-font-size);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}

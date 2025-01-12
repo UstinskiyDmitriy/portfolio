@@ -1,0 +1,9 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dot {
+    color: var(--accent-color-blue);
+}

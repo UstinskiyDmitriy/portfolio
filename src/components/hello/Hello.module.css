@@ -1,0 +1,60 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 70px 0 20px;
+}
+
+.about_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    font-size: var(--main-font-size);
+}
+
+.button_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: var(--main-font-size);
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+}
+
+.contact_button{
+    background-color: var(--accent-color-blue);
+    color: #fff;
+}
+
+.load_button {
+    background-color: var(--accent-color-gray);
+}
+
+.contact_button:hover {
+    box-shadow: 4px 7px 10px  rgba(0, 0, 255, 0.432);
+}
+
+.load_button:hover {
+    box-shadow: 4px 7px 10px rgba(128, 128, 128, 0.555);
+}
+
+.photo_wrapper {
+    height: 30%;
+    width: 30%;
+    
+}
+
+.photo{
+  width: 100%;
+  border-radius: 5px;
+}
