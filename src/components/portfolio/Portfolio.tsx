@@ -6,7 +6,7 @@ import { useState } from "react";
 
 interface Project {
   id: number | string;
-  website?: string | undefined
+  website?: string 
 }
 
 export default function Portfolio() {

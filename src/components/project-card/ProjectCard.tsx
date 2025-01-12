@@ -4,12 +4,12 @@ interface ProjectCardProps {
     image: string;
     title: string;
     date: string;
-    id: string | number;
-    site: string | undefined;
+    id: string | number | undefined;
+    site?: string;
 }
 export default function ProjectCard({image,title, date, id, site}:ProjectCardProps) {
   return (
-    <div className={s.main} id={id}>
+    <div className={s.main} key={id}>
       <div>
         
       </div>
